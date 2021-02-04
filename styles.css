@@ -65,6 +65,8 @@ body {
     align-items: center;
     height: fit-content;
     padding-bottom: 20px;
+    margin: 10px;
+    min-width: 50px;
 }
 
 h1 {
@@ -93,6 +95,7 @@ a {
 .btn {
     margin: 5px;
     line-height: 40px;
+    text-align: center;
 }
 
 .cont-text {
@@ -165,7 +168,7 @@ a:hover {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 465px) {
     .glass { 
     border-radius: 0;
     min-width: 100%;
@@ -192,6 +195,14 @@ a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 415px) {
+
+    .btn {
+        display: flex;
         flex-direction: column;
     }
 }
